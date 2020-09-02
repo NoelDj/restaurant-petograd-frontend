@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="first">
+        <header>
+            <ul>
+                <li id="list"></li>
+            </ul>
+        </header>
+        <section class="text">
+            <h2>Welcome to Petograd</h2>
+            <h1>Don’t feel like cooking tonight?</h1>
+            <p>Then let us do the cooking and enjoy a night out</p>
+            <a href="#menu" id="click">View The Menu</a>
+        </section>
+    </main>
+
+    <main class="about" id="about">
+        <section class="contentAbout">
+            <h2>10 years of experience</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iste possimus atque odit autem, debitis tempore alias pariatur dolorem deserunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iste possimus atque odit autem, debitis tempore alias pariatur dolorem deserunt.</p>
+        </section>
+        <img class="aboutimg" src="restaurant.jpeg" alt="potatoes">
+    </main>
+
+    <main class="second" id="menu">
+
+        <button class="filterButton">Filter</button>
+
+        <section class="categorySection" id="one">
+
+        </section>
+
+    </main>
+
+    <footer id="down">
+        <div class="upper">
+            <h2>The Restaurant</h2>
+        </div>
+        <div class="lower">
+            <div class="information">
+                <h3>Hours</h3>
+                <ul>
+                    <li>Mon - Fri: 10 - 22</li>
+                    <li>Sunday: 10 - 20</li>
+                    <li>Saturday - Fri: 12 - 18</li>
+                </ul>
+            </div>
+            <div class="information">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Phone: (00) 000-000</li>
+                    <li>Fax: (01) 000-000</li>
+                    <li>Mail: restaurant-support@mail.com</li>
+                </ul>
+            </div>
+        </div>
+        <p class="by">Made By Noel - 2020</p>
+    </footer>
+
+    <template>
+        <article>
+            <div class="imgbox" id="imgdish">
+                <img src="" alt="">
+                <div class="sold">Sold Out</div>
+            </div>
+            <div class="content">
+                <img src="leaf.svg" alt="" class="vegetarian">
+                <h3 class="dish"></h3>
+                <p class="description"></p>
+                <div class="line">
+                    <p>Number: <span class="number"></span>
+                    </p>
+                    <div class="theprice">
+                        <p class="oldprice"></p>
+                        <p class="price"></p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </template>
+
+    <div class="modal-background hide">
+        <div class="modal-content">
+            <h3 class="modal-name">NAME</h3>
+            <img src="" alt="" class="modal-image" />
+            <p class="modal-description">LONG DESCRIPTION</p>
+            <h4 class="modal-price">PRICE</h4>
+            <button>Bestil</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="script.js"></script>
